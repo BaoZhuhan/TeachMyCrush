@@ -1,0 +1,1 @@
+{"name":"Local: 4414","url":"d:\\Codebase\\TeachMyCrush\\Class8\\homework\\4414.c","tests":[{"id":1720494100116,"input":"1 5 3\nABC","output":"1 3 5"},{"id":1720494101912,"input":"6 4 2\nCAB","output":"6 2 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Codebase\\TeachMyCrush\\Class8\\homework\\4414.c","group":"local","local":true}

@@ -14,9 +14,9 @@ int main() {
         printf( "%.10f , %.5f", c, c );
     }
 
-    long long l = 1;
-    float d = 2.0;
-    printf("%f\n",l+d);
+    // long long l = 1;
+    // float d = 2.0;
+    // printf("%f\n",l+d);
     
 
     return 0;

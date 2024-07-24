@@ -1,22 +1,20 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int main(){
-    int class[7] = {0};
-    
-    int flag_happy = 1;
-    int max_day = 0;
+    int a, b, sta = 0;
+    int max = 0, day = 0;
 
-    for(int i = 0 ; i < 7 ;i++){
-        int a,b;
-        scanf("%d%d",&a,&b);
-        class[i] = a+b;
-        
-        if(class[i] > 8) flag_happy = 0;
-        max_day = (class[i] > class[max_day] ? i : max_day);
+    for(int i = 1;i <= 7;i++){
+        scanf("%d%d", &a, &b);
+        if(a + b > 8) sta++;
+        if(a + b > max){
+            max = a + b;
+            day = i;
+        }
     }
 
-    if(flag_happy) printf("0");
-    else printf("%d",max_day + 1);
-
+    if(sta == 0) printf("0");
+    else printf("%d" ,day);
+    
     return 0;
 }

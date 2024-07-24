@@ -1,0 +1,1 @@
+{"name":"Local: pzw_ABC","url":"d:\\Codebase\\TeachMyCrush\\Class8\\homework\\pzw_ABC.c","tests":[{"id":1720747860778,"input":"1 5 3\nABC","output":"1 3 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Codebase\\TeachMyCrush\\Class8\\homework\\pzw_ABC.c","group":"local","local":true}
