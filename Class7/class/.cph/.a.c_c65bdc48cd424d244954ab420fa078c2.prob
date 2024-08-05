@@ -1,0 +1,1 @@
+{"name":"Local: a","url":"d:\\Codebase\\TeachMyCrush\\Class7\\class\\a.c","tests":[{"id":1721827393733,"input":"1\nabcd","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Codebase\\TeachMyCrush\\Class7\\class\\a.c","group":"local","local":true}

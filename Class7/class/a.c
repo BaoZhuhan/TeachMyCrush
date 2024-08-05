@@ -1,12 +1,20 @@
 #include <stdio.h>
-#include <string.h>
 
 int main(){
-    char a[1000] = {0};
-    strcpy(a,"abcdefg");
+    int n;
+    scanf("%d", &n);
+    getchar(); // get the '\n'
 
-    strcpy(a , a+1);
-    printf("%s\n" , a);
+    int a[105] = {0};
+    int i = 0;
+    while((a[i] = getchar()) != '\n'){
+        i++;
+    }
+    a[i] = '\0';
 
+    for(int i = 0; a[i] != '\0'; i++){
+        a[i] = (char)((int)(a[i] - 'a' + n) % 26 + 'a');
+        printf("%c", a[i]);
+    }
     return 0;
 }
